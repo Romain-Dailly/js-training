@@ -5,9 +5,9 @@
  * and return the total
  *
  */
-let array = [];
-let result = 0
+
 function total(array){
+    let result = 0;
     for (let i=0;i < array.length; i++){
         result += array[i];
     }
