@@ -6,11 +6,12 @@
  *
  */
 let array = [];
-result = 0
+let result = 0
 function total(array){
-    for (let i=0; i<totall.length; i++){
+    for (let i=0;i < array.length; i++){
         result += array[i];
     }
+    return result;
 
 }
 //* Begin of tests
