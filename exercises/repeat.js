@@ -7,7 +7,13 @@
  * Of course you may not use the method directly
  *
  */
-
+function repeat(str, a){
+    let strTotal = ''
+    for (let i=0; i<a; i++){
+        strTotal+= str;
+    }
+    return strTotal;
+}
 //* Begin of tests
 const assert = require('assert')
 
