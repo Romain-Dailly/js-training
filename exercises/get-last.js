@@ -8,8 +8,11 @@
  */
 
 // Your code :
-
-//* Begin of tests
+function getLast(a){
+    return a[a.length - 1]
+}
+    
+    //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(getLast([ 2, 42 ]), 42)
